@@ -23,4 +23,14 @@ if (process.argv.indexOf('--version') !== -1) {
 	return;
 }
 
+if(proccess.argv.indexOf('-h') !== -1) {
+	help();
+	return;
+}
+
+if(proccess.argv.indexOf('-v') !== -1) {
+	console.log(pkg.version);
+	return;
+}
+
 process.stdout.write(userHome);
