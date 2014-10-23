@@ -30,6 +30,7 @@ if(proccess.argv.indexOf('-h') !== -1) {
 
 if(proccess.argv.indexOf('-v') !== -1) {
 	console.log(pkg.version);
+	return;
 }
 
 process.stdout.write(userHome);
