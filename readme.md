@@ -19,6 +19,8 @@ console.log(userHome);
 //=> /Users/sindresorhus
 ```
 
+Returns `null` in the very unlikely scenario that it can't find the home directory.
+
 
 ## CLI
 
