@@ -19,7 +19,7 @@ console.log(userHome);
 //=> /Users/sindresorhus
 ```
 
-Returns `null` in the very unlikely scenario that it can't find the home directory.
+Returns `null` in the unlikely scenario that the home directory can't be found.
 
 
 ## CLI
