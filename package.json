@@ -34,6 +34,7 @@
     "path"
   ],
   "devDependencies": {
-    "ava": "0.0.3"
+    "ava": "0.0.4",
+    "path-exists": "^1.0.0"
   }
 }
