@@ -5,7 +5,7 @@
 
 ## Install
 
-```sh
+```
 $ npm install --save user-home
 ```
 
@@ -24,16 +24,16 @@ Returns `null` in the unlikely scenario that the home directory can't be found.
 
 ## CLI
 
-```sh
+```
 $ npm install --global user-home
 ```
 
-```sh
+```
 $ user-home --help
 
-Example
-  $ user-home
-  /Users/sindresorhus
+  Example
+    $ user-home
+    /Users/sindresorhus
 ```
 
 
