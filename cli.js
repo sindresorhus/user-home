@@ -1,26 +1,14 @@
 #!/usr/bin/env node
 'use strict';
-var pkg = require('./package.json');
+var meow = require('meow');
 var userHome = require('./');
 
-function help() {
-	console.log([
-		pkg.description,
-		'',
+meow({
+	help: [
 		'Example',
 		'  $ user-home',
 		'  /Users/sindresorhus'
-	].join('\n'));
-}
-
-if (process.argv.indexOf('--help') !== -1) {
-	help();
-	return;
-}
-
-if (process.argv.indexOf('--version') !== -1) {
-	console.log(pkg.version);
-	return;
-}
+	].join('\n')
+});
 
 process.stdout.write(userHome);
