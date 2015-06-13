@@ -33,6 +33,9 @@
     "variables",
     "userprofile"
   ],
+  "dependencies": {
+    "os-homedir": "^1.0.0"
+  },
   "devDependencies": {
     "ava": "0.0.4",
     "path-exists": "^1.0.0"
