@@ -4,9 +4,6 @@
   "description": "Get the path to the user home directory",
   "license": "MIT",
   "repository": "sindresorhus/user-home",
-  "bin": {
-    "user-home": "cli.js"
-  },
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
@@ -19,23 +16,23 @@
     "test": "node test.js"
   },
   "files": [
-    "index.js",
-    "cli.js"
+    "index.js"
   ],
   "keywords": [
-    "cli",
-    "bin",
     "user",
     "home",
     "homedir",
+    "os-homedir",
     "dir",
     "directory",
     "folder",
-    "path"
+    "path",
+    "env",
+    "vars",
+    "environment",
+    "variables",
+    "userprofile"
   ],
-  "dependencies": {
-    "meow": "^3.1.0"
-  },
   "devDependencies": {
     "ava": "0.0.4",
     "path-exists": "^1.0.0"
