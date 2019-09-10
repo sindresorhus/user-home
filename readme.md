@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save user-home
+$ npm install user-home
 ```
 
 
 ## Usage
 
 ```js
-var userHome = require('user-home');
+cosnt userHome = require('user-home');
 
 console.log(userHome);
 //=> '/Users/sindresorhus'
@@ -35,6 +35,14 @@ This module was made long before [`os-homedir`](https://github.com/sindresorhus/
 - [home-or-tmp](https://github.com/sindresorhus/home-or-tmp) - Get the user home directory with fallback to the system temp directory
 
 
-## License
+---
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+<div align="center">
+	<b>
+		<a href="https://tidelift.com/subscription/pkg/npm-user-home?utm_source=npm-user-home&utm_medium=referral&utm_campaign=readme">Get professional support for this package with a Tidelift subscription</a>
+	</b>
+	<br>
+	<sub>
+		Tidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.
+	</sub>
+</div>
