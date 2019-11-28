@@ -13,7 +13,7 @@ $ npm install user-home
 ## Usage
 
 ```js
-cosnt userHome = require('user-home');
+const userHome = require('user-home');
 
 console.log(userHome);
 //=> '/Users/sindresorhus'
