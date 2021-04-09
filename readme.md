@@ -1,3 +1,7 @@
+Deprecated. Just use `import {homedir} from 'os';`.
+
+---
+
 # user-home
 
 > Get the path to the user home directory
@@ -33,16 +37,3 @@ This module was made long before [`os-homedir`](https://github.com/sindresorhus/
 
 - [user-home-cli](https://github.com/sindresorhus/user-home-cli) - CLI for this module
 - [home-or-tmp](https://github.com/sindresorhus/home-or-tmp) - Get the user home directory with fallback to the system temp directory
-
-
----
-
-<div align="center">
-	<b>
-		<a href="https://tidelift.com/subscription/pkg/npm-user-home?utm_source=npm-user-home&utm_medium=referral&utm_campaign=readme">Get professional support for this package with a Tidelift subscription</a>
-	</b>
-	<br>
-	<sub>
-		Tidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.
-	</sub>
-</div>
